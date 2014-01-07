@@ -88,7 +88,7 @@
     ////生成单条XMLcommand命令，需要参数的列表对象PrimaryFieldList和where条件的列表对象OrderByList//////
     ////////////////////////////////////////////////////////////////////////////////////////////
     
-    NSMutableString *xml = [XmlCommands createSimpleCommandByType:Select andTableName:@"Brand111" andParaSort:@"0" andSelectPID:@"0" andKeyName:@"Bname" andParameters:mp andSelectParameter:sp];
+    NSMutableString *xml = [XmlCommands createSimpleCommandByType:Select andTableName:@"Brand12" andParaSort:@"0" andSelectPID:@"0" andKeyName:@"Bname" andParameters:mp andSelectParameter:sp];
     
     NSLog(@"%@",xml);
 }
